@@ -14,6 +14,8 @@ public class GameManager : MonoBehaviour
 
 	public PlayerInput PlayerInput;
 
-
 	public Player Player;
+
+	public HUD HUD;
+
 }

@@ -22,4 +22,9 @@ public class PlayerInput : MonoBehaviour
 			}    
 		}    
 	}
+
+	public void InteractWithInteractable(Interactable target)
+	{
+		GameManager.Instance.Player.InteractWithObject(target);
+	}
 }

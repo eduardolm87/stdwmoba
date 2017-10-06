@@ -4,5 +4,8 @@ using UnityEngine;
 
 public class Player : Creature
 {
-
+	void Start()
+	{
+		isplayer = true;
+	}
 }

@@ -26,7 +26,7 @@ GameObject:
   - component: {fileID: 65513950102410744}
   m_Layer: 0
   m_Name: Interactable
-  m_TagString: Untagged
+  m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -106,13 +106,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7ab3bdfd5db5410f9baee67206e0777, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  InteractDistance: 2
+  InteractDelayTime: 3
+  TaskName: Waiting
+  CurrentInteractElapsedTime: 0
 --- !u!114 &114776329072582056
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1434569437393496}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fbf3575480402db40813e763382412fb, type: 3}
   m_Name: 
