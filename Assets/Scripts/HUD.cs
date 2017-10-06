@@ -5,6 +5,10 @@ using UnityEngine.UI;
 
 public class HUD : MonoBehaviour
 {
+
+	public HUDResources ResourcesBar;
+
+
 	public GameObject TaskProgressBarObject;
 	public Image TaskProgressBarFilling;
 	public Text TaskProgressBarText;
