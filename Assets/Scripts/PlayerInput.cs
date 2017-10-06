@@ -15,8 +15,10 @@ public class PlayerInput : MonoBehaviour
 			RaycastHit hit;
 			if (Physics.Raycast(ray, out hit, distance))
 			{
-				GameManager.Instance.Player.MoveToPoint(hit.point);
-
+				if (hit.collider.CompareTag("WalkSurface"))
+				{
+					GameManager.Instance.Player.MoveToPoint(hit.point);
+				}
 			}    
 		}    
 	}
