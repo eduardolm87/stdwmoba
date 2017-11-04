@@ -106,9 +106,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7ab3bdfd5db5410f9baee67206e0777, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  InteractDistance: 2
+  InteractDistance: 1.5
   InteractDelayTime: 3
   TaskName: Waiting
+  Tags: 00000000
   CurrentInteractElapsedTime: 0
 --- !u!114 &114776329072582056
 MonoBehaviour:

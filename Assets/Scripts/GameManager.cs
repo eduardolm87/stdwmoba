@@ -12,10 +12,14 @@ public class GameManager : MonoBehaviour
 	}
 
 
+    public bool DebugHitboxes = true;
+
+
 	public PlayerInput PlayerInput;
 
 	public Player Player;
 
 	public HUD HUD;
 
+    public Hitbox HitboxPrefab;
 }
